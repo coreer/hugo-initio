@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
-	<title>{{ .Site.Params.Title }}}</title>
+	<title>{{ .Site.Params.Title }}</title>
 
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 
@@ -37,16 +37,16 @@
 			<span class="title">{{ .Site.Params.name }}</span>
 			<span class="tagline">{{ .Site.Params.description }}<br>
 				<a href="">{{ .Site.Params.email }}</a>
-            </span>
+			</span>			
 		</h1>
+		<div id="langSwitcher">
+				{{ range $.AllTranslations }}
+					<a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+				{{ end }}
+		</div>
 	</div>
 
-	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		{{ range $.AllTranslations }}
-			<a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-		{{ end }}
-	</div>
-
+	
     {{ partial "menu.html" . }}
 
 </header>

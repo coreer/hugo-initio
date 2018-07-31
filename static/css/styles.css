@@ -273,6 +273,14 @@ a:hover {
   font-size: 1rem;
   margin: 15px 0 0;
 }
+
+#langSwitcher {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
 /*********************************************************************
 
 
@@ -780,6 +788,16 @@ footer.entry-meta .meta-in {
   color: #ccc;
   margin: 0 0 20px;
 }
+
+#contactTitle::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -180px; 
+  height: 180px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
 #underfooter {
   background: #191919;
   padding: 15px 0;
