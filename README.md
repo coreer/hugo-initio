@@ -25,9 +25,9 @@ More info: [hugo setup guide](https://gohugo.io/overview/installing/)
 
 ## Configuration
 
-[Example Site](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite)
+[Example Site](https://github.com/coreer/hugo-initio/tree/master/exampleSite)
 
-[config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml)
+[config.toml](https://github.com/coreer/hugo-initio/tree/master/exampleSite/config.toml)
 
 ### Sections
 
@@ -58,7 +58,7 @@ You can add as many social networks as you want in the params.social array follo
   network = "facebook"
 ```
 
-See the whole configuration in the [config.toml](https://github.com/miguelsimoni/hugo-initio/tree/master/exampleSite/config.toml) file.
+See the whole configuration in the [config.toml](https://github.com/coreer/hugo-initio/tree/master/exampleSite/config.toml) file.
 
 ### Comments
 
@@ -100,8 +100,8 @@ Now enter [`http://localhost:1313/hugo-initio-site/`](http://localhost:1313/hugo
 - Found a bug?
 - Got an idea for a new feature?
 
-Let me know it using the [issue tracker](https://github.com/miguelsimoni/hugo-initio/issues).
-Or make it directly: [pull request](https://github.com/miguelsimoni/hugo-initio/pulls).
+Let me know it using the [issue tracker](https://github.com/coreer/hugo-initio/issues).
+Or make it directly: [pull request](https://github.com/coreer/hugo-initio/pulls).
 
 ## License
 
